@@ -15,7 +15,7 @@ public class Main {
 		list.add("Grenadine");
 		list.add("Passion");
 		list.add("Goyave");
-
+		System.out.println("---La lites des fruits--- ");
 		for (String item : list) {
 			System.out.println("Fruit: " + item);
 		}
