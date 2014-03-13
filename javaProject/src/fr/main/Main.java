@@ -1,4 +1,4 @@
-package fr.unviangers.main;
+package fr.main;
 
 import java.util.ArrayList;
 
