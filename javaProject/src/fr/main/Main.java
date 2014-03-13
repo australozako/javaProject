@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
+		FruitClass fr = new FruitClass();
+		fr.setEspece("Mange");
+		fr.setVariete("Lipense");
+		fr.setOrigin("Afrique Burkina faso");
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("Mangoes");
 		list.add("Papaya");
@@ -20,6 +24,8 @@ public class Main {
 			System.out.println("Fruit: " + item);
 		}
 
+		System.out.println(fr.getEspece() + "--->" + fr.getVariete() + "---->"
+				+ fr.getOrigin());
 	}
 
 }

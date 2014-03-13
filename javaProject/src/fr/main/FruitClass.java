@@ -1,6 +1,7 @@
 package fr.main;
 
 public class FruitClass {
+	private String espece;
 	private String variete;
 	private String origin;
 
@@ -20,6 +21,14 @@ public class FruitClass {
 
 	public void setOrigin(String origin) {
 		this.origin = origin;
+	}
+
+	public String getEspece() {
+		return espece;
+	}
+
+	public void setEspece(String espece) {
+		this.espece = espece;
 	}
 
 }
