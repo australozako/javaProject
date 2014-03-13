@@ -23,6 +23,7 @@ public class FruitClass {
 		this.origin = origin;
 	}
 
+<<<<<<< HEAD
 	public String getEspece() {
 		return espece;
 	}
@@ -31,4 +32,6 @@ public class FruitClass {
 		this.espece = espece;
 	}
 
+=======
+>>>>>>> branch_test
 }
